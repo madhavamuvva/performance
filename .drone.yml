@@ -2,8 +2,8 @@ pipeline:
   test:
     image: maven:alpine
     commands:
-     - "mvn clean verify”
-     - "mvn pre-site”
+     - "mvn clean verify"
+     - "mvn pre-site"
     when:
       events:
         - push
